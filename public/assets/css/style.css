@@ -109,13 +109,23 @@ img {
 
   .phone {
     display: block;
-  	background: green;
+  	background-color: rgba(51, 121, 185, 1);
   	bottom: 0;
   	height: 100%;
   	left: 0;
   	position: absolute;
   	width: 100%;
     z-index: 999;
+  }
+
+  .mobile-header {
+    background-color: rgba(255, 255, 255, 0.95);
+    color: rgba(51, 121, 185, 1);
+    height: 60px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
   }
 
   .screen {
@@ -127,12 +137,17 @@ img {
   .icon {
   	background: #fff;
   	display: inline-block;
-  	height: 90px;
-  	margin: 2%;
-  	width: 25%;
+  	height: 300px;
+  	margin-top: 175px;
+  	width: 80%;
   }
 
   .icon p {
+    color: rgba(51, 121, 185, 1);
+    font-size: 48px;
+    line-height: 300px;
+    margin: 0;
+    text-transform: uppercase;
   	vertical-align: bottom;
   }
 }
