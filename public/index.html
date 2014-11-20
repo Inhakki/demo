@@ -12,9 +12,9 @@
 <link rel="apple-touch-startup-image href=startup.png">
 <link rel="icon" type="image/png" href="favicon.png">
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="assets/css/style.css" />
 <!-- <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" /> -->
-<link rel="stylesheet" href="css/screen.css" type="text/stylesheet" />
+<link rel="stylesheet" href="assets/css/screen.css" type="text/stylesheet" />
 <!-- <link rel="stylesheet" href="css/style.css" /> -->
 <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
 <!-- <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script> -->
@@ -22,24 +22,44 @@
 
 <body>
 
+  <section class="hero">
+    <div class="header">
+      <h1>Connected Living</h1>
+    </div>
+    <div class="hero-copy--container">
+      <div class="hero-copy--main">
+        <div class="hero-copy--left">
+          <img src="/assets/images/phone.png" alt="phone" />
+        </div>
+        <div class="hero-copy--right">
+          <h2>Experience Connected Living from your home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam consectetur quam at est porttitor, vitae mattis nisl sagittis. Etiam ac justo tellus. Aliquam pretium non felis at feugiat. Fusce porta vulputate velit, at consectetur odio pretium quis. Suspendisse potenti. Cras id euismod tellus. Aenean vel dolor dictum lorem semper porttitor. Pellentesque ligula tortor, rutrum sed mauris sed, dapibus commodo turpis. Morbi at nisi eu nibh lobortis accumsan eu quis velit. Curabitur eu enim a magna lobortis consequat a nec metus. Maecenas vitae libero massa.</p>
+        </div>
+      </div>
+    </div>
 
-<div id="update-this-oven" class="original-class"> 
-    <p>OVEN ACTIVATE! Thank you!!! Any questions?</p>
-</div>
+  </section>
 
-<div class="box2" style="float: left;">
-  <div>Element To Update</div>
-  <div>
-    <input class="an-input-box" id="element-id-to-update" type="text" value="update-this-oven">
-  </div>
-</div>
+  <section class="demo">
+    <div id="update-this-oven" class="original-class"> 
+      <p>OVEN ACTIVATE! Thank you!!! Any questions?</p>
+    </div>
 
-<div class="box2" style="float: right;">
-  <div>Inline CSS</div>
-  <div>
-    <input class="an-input-box" id="inline-css" type="text" value="background-color:blue;color:#fff;">
-  </div>
-</div>
+    <div class="box2" style="float: left;">
+      <div>Element To Update</div>
+      <div>
+        <input class="an-input-box" id="element-id-to-update" type="text" value="update-this-oven">
+      </div>
+    </div>
+
+    <div class="box2" style="float: right;">
+      <div>Inline CSS</div>
+      <div>
+        <input class="an-input-box" id="inline-css" type="text" value="background-color:blue;color:#fff;">
+      </div>
+    </div>
+  </section>
+
 
 <!-- <div class="box2">
   <button id="send-css-update">Broadcast CSS Changes</button> Everyone will see the change, INSTANTLY!
@@ -59,7 +79,7 @@
 
 <div id="pubnub"></div> <script src="http://cdn.pubnub.com/pubnub-3.5.47.min.js"></script>
 
-<script src="js/csser.js"></script>
+<script src="assets/js/csser.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,138 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  color: white;
+  height: 100vh;
+  overflow: hidden;
+}
+
+p {
+  width: 100%;
+}
+
+img {
+  max-height: 300px;
+}
+
+.hero {
+  background: url('/assets/images/kitchen.jpg') center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.header {
+  background-color: rgba(51, 121, 185, 0.95);
+  color: white;
+  height: 90px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header h1 {
+  font-size: 36px;
+  line-height: 90px;
+  margin: 0;
+  padding-left: 10%;
+  vertical-align: middle;
+}
+
+.hero-copy--container {
+  background-color: rgba(51, 121, 185, 0.9);
+  bottom: 0;
+  height: 310px;
+  position: absolute;
+  width: 100%;
+  z-index: 1001;
+}
+
+.hero-copy--main {
+  height: 100%;
+  margin: 0 auto;
+  padding-left: 10px 50px;
+  width: 75%;
+}
+
+  .hero-copy--left {
+    float: left;
+    padding: 20px;
+    width: 15%;
+  }
+
+  .hero-copy--right {
+    float: left;
+    padding: 20px;
+    width: 75%;
+  }
+
+  .hero-copy--right h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+
+  .hero-copy--right p {
+    font-size: 18px;
+    margin: 50px 0;
+  }
+
+.phone {
+  display: none;
+}
+
+.phone p {
+  font-size: 20px;
+}
+
+.original-class {
+  font-size: 0;
+}
+
+.original-class p {
+  margin-top: 15%;
+  position: absolute;
+  text-align: center;
+}
+
+.box2 {
+  display: none;
+}
+
+@media (max-width: 480px) {
+
+  section {
+    display: none;
+  }
+
+  .phone {
+    display: block;
+  	background: green;
+  	bottom: 0;
+  	height: 100%;
+  	left: 0;
+  	position: absolute;
+  	width: 100%;
+    z-index: 999;
+  }
+
+  .screen {
+  	display: block;
+  	margin: 0 auto;
+  	text-align: center;
+  }
+
+  .icon {
+  	background: #fff;
+  	display: inline-block;
+  	height: 90px;
+  	margin: 2%;
+  	width: 25%;
+  }
+
+  .icon p {
+  	vertical-align: bottom;
+  }
+}
