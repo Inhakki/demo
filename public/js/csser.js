@@ -6,7 +6,7 @@ $('#send-oven-update').bind('click', function() {
         channel: channel,
         message: {
             'element-id': PUBNUB.$('element-id-to-update').value,
-            'css': 'font-size: 98px;',
+            'css': 'font-size: 72px;',
             'text': 'The oven is now on'
         }
     });

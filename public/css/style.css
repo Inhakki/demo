@@ -1,13 +1,26 @@
+.phone {
+  display: none;
+}
+
+.phone p {
+  font-size: 20px;
+}
+
+.original-class {
+  font-size: 0;
+}
 
 
-/*@media (max-width: 480px) {*/
+@media (max-width: 480px) {
   .phone {
+    display: block;
   	background: green;
   	bottom: 0;
-  	height: 480px;
+  	height: 100%;
   	left: 0;
   	position: absolute;
-  	width: 320px;
+  	width: 100%;
+    z-index: 999;
   }
 
   .screen {
@@ -27,4 +40,4 @@
   .icon p {
   	vertical-align: bottom;
   }
-/*}*/
+}
