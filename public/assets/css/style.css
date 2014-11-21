@@ -64,13 +64,13 @@ img {
   }
 
   .hero-copy--right {
-    float: left;
+    float: right;
     padding: 20px;
     width: 75%;
   }
 
   .hero-copy--right h2 {
-    font-size: 48px;
+    font-size: 35px;
     margin: 0;
   }
 
